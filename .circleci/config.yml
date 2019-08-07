@@ -9,3 +9,6 @@ jobs:
             command: gradle test
         - store_test_results:
             path: .
+        - run:
+            command: gradle jar
+            
